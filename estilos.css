@@ -1,15 +1,14 @@
-/* Variables de Color (Paleta Otoñal / Fantasía Moderna) */
 :root {
-    --color-blackcurrant: #302643; /* Un tono morado un poco más profundo y limpio para el fondo */
-    --color-anzac: #DE9B43;        /* Dorado/Mostaza para acentos modernos */
-    --color-almond-cream: #E2C8A4; /* Crema claro para textos principales */
-    --color-card-bg: #3D3256;      /* Un morado ligeramente más claro para las tarjetas y bloques */
+    --color-blackcurrant: #302643; 
+    --color-anzac: #DE9B43;        
+    --color-almond-cream: #E2C8A4; 
+    --color-card-bg: #3D3256;     
 }
 
 /* Estilos Generales */
 body {
     font-family: 'Tenor Sans', sans-serif;
-    background-color: var(--color-blackcurrant); /* Fondo de un solo color sólido */
+    background-color: var(--color-blackcurrant);
     color: var(--color-almond-cream);
     margin: 0;
     padding: 0;
@@ -31,12 +30,11 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Cabecera / Hero Section Moderna (Sin degradados pesados) */
 header {
     background-color: var(--color-blackcurrant);
     text-align: center;
     padding: 90px 20px 60px 20px;
-    border-bottom: 2px solid rgba(222, 155, 67, 0.3); /* Línea divisoria elegante y delgada */
+    border-bottom: 2px solid rgba(222, 155, 67, 0.3); 
 }
 
 header h1 {
@@ -48,12 +46,12 @@ header p {
     font-size: 1.25rem;
     max-width: 700px;
     margin: 0 auto 30px auto;
-    color: #C4B5A5; /* Tono más suave para subtítulos */
+    color: #C4B5A5; 
 }
 
 .btn {
     background-color: var(--color-anzac);
-    color: #211A2E; /* Texto oscuro para contraste moderno */
+    color: #211A2E;
     padding: 14px 32px;
     font-family: 'Tenor Sans', sans-serif;
     font-weight: bold;
@@ -66,7 +64,7 @@ header p {
 
 .btn:hover {
     background-color: #F0AB52;
-    transform: translateY(-2px); /* Pequeño efecto moderno al pasar el cursor */
+    transform: translateY(-2px); 
 }
 
 /* Secciones Generales */
@@ -76,10 +74,9 @@ section {
     margin: 0 auto;
 }
 
-/* Sección de Historia (Estilo tarjeta moderna en lugar de bloque beige antiguo) */
 .historia {
     background-color: var(--color-card-bg);
-    border: 1px solid rgba(222, 155, 67, 0.2); /* Borde sutil dorado */
+    border: 1px solid rgba(222, 155, 67, 0.2); 
     border-radius: 12px;
     padding: 40px;
     margin: 30px auto;
@@ -94,11 +91,10 @@ section {
 }
 
 .historia p {
-    color: var(--color-almond-cream); /* Texto claro sobre la tarjeta morada */
+    color: var(--color-almond-cream); 
     margin-bottom: 15px;
 }
 
-/* Sección de Galería (Sneak Peek) */
 .galeria h2 {
     text-align: center;
     font-size: 2.5rem;
@@ -130,10 +126,9 @@ section {
 }
 
 .card-img:hover {
-    border-color: var(--color-anzac); /* Destaca al pasar el mouse */
+    border-color: var(--color-anzac);
 }
 
-/* Sección de Equipo */
 .equipo {
     background-color: var(--color-card-bg);
     border: 1px solid rgba(222, 155, 67, 0.2);
@@ -145,7 +140,7 @@ section {
 
 /* Footer */
 footer {
-    background-color: #211A2E; /* Tono morado más oscuro para anclar el pie de página */
+    background-color: #211A2E; 
     text-align: center;
     padding: 30px 20px;
     font-size: 0.9rem;
