@@ -1,0 +1,164 @@
+/* Variables de Color (Paleta Otoñal / Fantasía Moderna) */
+:root {
+    --color-blackcurrant: #302643; /* Un tono morado un poco más profundo y limpio para el fondo */
+    --color-anzac: #DE9B43;        /* Dorado/Mostaza para acentos modernos */
+    --color-almond-cream: #E2C8A4; /* Crema claro para textos principales */
+    --color-card-bg: #3D3256;      /* Un morado ligeramente más claro para las tarjetas y bloques */
+}
+
+/* Estilos Generales */
+body {
+    font-family: 'Tenor Sans', sans-serif;
+    background-color: var(--color-blackcurrant); /* Fondo de un solo color sólido */
+    color: var(--color-almond-cream);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Fondamento', cursive;
+    color: var(--color-anzac);
+    letter-spacing: 1px;
+}
+
+a {
+    color: var(--color-anzac);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Cabecera / Hero Section Moderna (Sin degradados pesados) */
+header {
+    background-color: var(--color-blackcurrant);
+    text-align: center;
+    padding: 90px 20px 60px 20px;
+    border-bottom: 2px solid rgba(222, 155, 67, 0.3); /* Línea divisoria elegante y delgada */
+}
+
+header h1 {
+    font-size: 3.8rem;
+    margin-bottom: 15px;
+}
+
+header p {
+    font-size: 1.25rem;
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+    color: #C4B5A5; /* Tono más suave para subtítulos */
+}
+
+.btn {
+    background-color: var(--color-anzac);
+    color: #211A2E; /* Texto oscuro para contraste moderno */
+    padding: 14px 32px;
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #F0AB52;
+    transform: translateY(-2px); /* Pequeño efecto moderno al pasar el cursor */
+}
+
+/* Secciones Generales */
+section {
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Sección de Historia (Estilo tarjeta moderna en lugar de bloque beige antiguo) */
+.historia {
+    background-color: var(--color-card-bg);
+    border: 1px solid rgba(222, 155, 67, 0.2); /* Borde sutil dorado */
+    border-radius: 12px;
+    padding: 40px;
+    margin: 30px auto;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.historia h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.historia p {
+    color: var(--color-almond-cream); /* Texto claro sobre la tarjeta morada */
+    margin-bottom: 15px;
+}
+
+/* Sección de Galería (Sneak Peek) */
+.galeria h2 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.sub-galeria {
+    text-align: center;
+    color: #C4B5A5;
+}
+
+.grid-galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card-img {
+    background-color: var(--color-card-bg);
+    border: 1px solid rgba(222, 155, 67, 0.2);
+    border-radius: 8px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-almond-cream);
+    font-style: italic;
+    transition: border-color 0.2s ease;
+}
+
+.card-img:hover {
+    border-color: var(--color-anzac); /* Destaca al pasar el mouse */
+}
+
+/* Sección de Equipo */
+.equipo {
+    background-color: var(--color-card-bg);
+    border: 1px solid rgba(222, 155, 67, 0.2);
+    border-radius: 12px;
+    padding: 40px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #211A2E; /* Tono morado más oscuro para anclar el pie de página */
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 0.9rem;
+    color: #9A8FA8;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.redes {
+    margin: 15px 0;
+}
+
+.redes a {
+    margin: 0 10px;
+    font-weight: bold;
+    color: var(--color-anzac);
+}
